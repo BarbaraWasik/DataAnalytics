@@ -1,6 +1,6 @@
 data {
-  int M;//number of years analyzed
-  int y[M];//number of fatal accidents
+  int M;//number of games
+  int y[M];//number of openings
   vector[M] t; //number of turns for every opening
   real addv; // advantage color
 }
